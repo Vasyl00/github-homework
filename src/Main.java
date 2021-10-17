@@ -9,8 +9,10 @@ public class Main {
     public static void print(String input_line) {
         System.out.println(input_line);
     }
+
     public static void mas_print(String input_line, int count) {
         for (int i = 0; i < count; i++) {
             System.out.println(input_line);
         }
+    }
 }
